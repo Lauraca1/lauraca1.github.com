@@ -1,2 +1,2 @@
-# lauraca1.github.com
+# lauraca1.github.io
 personal website v1 
