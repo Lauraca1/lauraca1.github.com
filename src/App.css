@@ -13,16 +13,10 @@ h3 {
   font-size: 15px;
 }
 img{
-  width: 225px;
-  border: 3.5px solid #0D160B;
+  width: 50%;
+  justify-content: center;
+  border: 2.5px solid #0D160B;
   border-radius: 6px;
-}
-img:hover {
-  border: 3.5px solid #7785FF;
-}
-
-.books{
-  flex-direction: row-reverse;
 }
 
 .header {
@@ -34,14 +28,21 @@ img:hover {
   padding-top: 10px;
   background-color: #D5CFE1;
 }
+.aCool{
+  color: #0D160B;
+  text-decoration: none;
+  font-weight: bold;
+}
+.aCool:hover{
+  color: #7785FF;
+  font-size: 1.25em;
+}
 
 .link {
   color: #0D160B;
   text-decoration: none;
   font-size: 1.5em;
   font-weight: bold;
-  
-  
 }
 .link:hover {
   text-decoration: underline;
@@ -55,7 +56,7 @@ img:hover {
   display: flex;
   flex-direction: column;
   min-height: 80vh;
-  padding-left: 10px;
+  padding-left: 2.2vw;
 }
 
 .footer {
@@ -64,8 +65,17 @@ img:hover {
   min-height: 10vh;
   padding-left: 10px;
 }
+img{
+  width: 75%;
+  border: 3px solid #0D160B;
+}
 
-@media only screen and (max-width: 650px) {
+iframe{
+  width: 65vw;
+  height: 40vw;
+}
+
+@media only screen and (max-width: 950px) {
   .App {
     justify-content: center;
   }
@@ -83,14 +93,20 @@ img:hover {
     font-size: 12px;
     text-align: center;
   }
-  img{
-    width: 150px;
-  }
   .link {
     text-align: center;
   }
+  img{
+    width: 75%;
+    border: 3px solid #0D160B;
+  }
+  .bruh{
+    display: flex;
+    justify-content: center;
+  }
   iframe{
-    width: 92vw;
+    width: 93vw;
+    height: 100vw;
   }
   
 }

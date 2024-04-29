@@ -5,7 +5,16 @@ import Recs from "./recs.js";
 import Travel from "./travel.js";
 import SLO from "./slo.js";
 import SF from "./sf.js";
+import SFPics from "./sfPics.js";
 import Nav from "./nav.js";
+import Italy from "./italy.js";
+import Spain from "./spain.js";
+import Germany from "./germany.js";
+import Austria from "./austria.js";
+import France from "./france.js";
+import Uk from "./uk.js";
+import Us from "./us.js";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -17,6 +26,14 @@ function App() {
         <Route path="/travel" element={<Travel />} />
         <Route path="/recs/slo" element={<SLO />} />
         <Route path="/recs/sf" element={<SF />} />
+        <Route path="/pics" element={<SFPics />} />
+        <Route path="/travel/italy" element={<Italy />} />
+        <Route path="/travel/spain" element={<Spain />} />
+        <Route path="/travel/germany" element={<Germany />} />
+        <Route path="/travel/austria" element={<Austria />} />
+        <Route path="/travel/france" element={<France />} />
+        <Route path="/travel/uk" element={<Uk />} />
+        <Route path="/travel/us" element={<Us />} />
       </Routes>
     </Router>
   );
