@@ -1,5 +1,4 @@
 import "./App.css";
-import {Link} from "react-router-dom";
 
 const Intro = () => {
   return (
@@ -7,9 +6,7 @@ const Intro = () => {
       <div className="body">
         <h1>Hello! I’m Laura!</h1>
         <h2>
-          I am a software engineer based out of the 
-          <a className="aCool" href="/pics"> San Francisco </a>
-           Bay Area. This
+          I am a software engineer based out of the San Francisco Bay Area. This
           is my work-in-progress personal website. Feel free to click around and
           let me know what you think!
         </h2>

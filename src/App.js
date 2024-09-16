@@ -26,7 +26,8 @@ function App() {
         <Route path="/travel" element={<Travel />} />
         <Route path="/recs/slo" element={<SLO />} />
         <Route path="/recs/sf" element={<SF />} />
-        <Route path="/pics" element={<SFPics />} />
+        <Route path="/recs/sf/pics" element={<SFPics />} />
+        <Route path="/sfPics" element={<SFPics />} />
         <Route path="/travel/italy" element={<Italy />} />
         <Route path="/travel/spain" element={<Spain />} />
         <Route path="/travel/germany" element={<Germany />} />
