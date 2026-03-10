@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0503d76c.css",
-    "main.js": "/static/js/main.3fa26d99.js",
+    "main.css": "/static/css/main.fc4ef088.css",
+    "main.js": "/static/js/main.6b989930.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/fareDollars.jpg": "/static/media/fareDollars.ebecd3476b7170e96a5d.jpg",
     "static/media/goldenGate.jpg": "/static/media/goldenGate.4659f5cb3f54691b4432.jpg",
@@ -10,12 +10,12 @@
     "static/media/nobHill.jpg": "/static/media/nobHill.eccd0b0f549a2a73c9c5.jpg",
     "static/media/sorrento1.jpg": "/static/media/sorrento1.e866a950a7957bcd65d6.jpg",
     "index.html": "/index.html",
-    "main.0503d76c.css.map": "/static/css/main.0503d76c.css.map",
-    "main.3fa26d99.js.map": "/static/js/main.3fa26d99.js.map",
+    "main.fc4ef088.css.map": "/static/css/main.fc4ef088.css.map",
+    "main.6b989930.js.map": "/static/js/main.6b989930.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0503d76c.css",
-    "static/js/main.3fa26d99.js"
+    "static/css/main.fc4ef088.css",
+    "static/js/main.6b989930.js"
   ]
 }
